@@ -11,7 +11,7 @@ A javascript that use Martingale Strategy on FreeBitcoin MANUAL BET.
 ## Foreword
 ### Freebitcoin
 
-<div align=center><img src= "https://github.com/peter890331/Martingale-Strategy-on-FreeBitcoin-MANUAL-BET/blob/figures/freebitcoin%20logo.png" width="300px"></div>
+<div align=center><img src= "https://github.com/peter890331/Martingale-Strategy-on-FreeBitcoin-MANUAL-BET/blob/figures/freebitcoin%20logo.png" width="200px"></div>
   
 Freebitcoin ([Website][3]) 是一個線上的比特幣水龍頭網站，其 Logo 為上圖，可以透過簽到、抽獎或下注來賺取小額的比特幣。其中，在 MULTIPLY BTC 頁面中，有一個賭數字大或小的下注功能，如下圖，其標示的勝率是47.5%，我們可以使用腳本將這裡的 MANUAL BET 進行自動化，以馬丁格爾策略 (Martingale Strategy) 來下注。
 
