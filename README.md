@@ -67,7 +67,7 @@ Freebitcoin ([Website][3]) 是一個線上的比特幣水龍頭網站，其 Logo
   8.   贏了很開心，賠光別怪我。
 
 ## Make updates, For Developers
-若你想修改腳本，可以嘗試加大底注，當然賠光的速度又更快，亦或是嘗試將腳本中的一些 delay 減小，但可能會有被網站發現的風險？
+若你想修改腳本，可以嘗試加大底注，當然相對的，如果運氣不好的話，賠光的速度又更快，亦或是嘗試將腳本中的一些 delay 減小，但可能會有被網站發現的風險？
 
 ## Some screen recording and screenshots when using
 目前懶得錄影跟截圖，贏太少了。
