@@ -85,7 +85,7 @@ if (isJsonUrl) {
                     console.log(" * Martingale迭代次數： " + numIterations);
                     console.log(" * 總共用時 " + (endTime - startTime) / 1000 + " 秒，");
                     console.log(" * 也就是 " + (endTime - startTime) / 1000 / 60 + " 分鐘。");
-                    console.log(" * 請注意，本次迭代的連輸次數是： " + Max_lose + " 次。");
+                    console.log(" * 請注意，本輪迭代的最大連輸次數是： " + Max_lose + " 次。");
                     console.log("---------------------------------------");
                 });
             } else {
@@ -199,7 +199,7 @@ async function Martingale() {
         }
 
     } else {
-        console.log(" -00 WIN PROFIT不為最低底注，請將WIN PROFIT設定為0.00000001");
+        console.log(" - WIN PROFIT不為最低底注，請將WIN PROFIT設定為0.00000001");
     }
 }
 
