@@ -17,7 +17,7 @@ Freebitcoin ([Website][3]) 是一個線上的比特幣水龍頭網站，其 Logo
 
 <div align=center><img src= "https://github.com/peter890331/Martingale-Strategy-on-FreeBitcoin-MANUAL-BET/blob/figures/MANUAL%20BET.png" width="600px"></div>
 
-### 馬丁格爾策略
+### 馬丁格爾策略 (Martingale Strategy)
 馬丁格爾策略 (Martingale Strategy) 是一個經典的賭博策略，簡而言之就是，在每次下注輸了之後，下一注就用雙倍的賭注再去押注，直到贏錢為止，再重新開始新的回合。如此一來，如果本金無限的話，贏錢那次就可以把前面輸的賭注都賺回來，但本金不可能無限，所以就算本金很大，連輸的機率相對再微小，都還是有賠光的可能，要謹慎使用。理論上本金越大，賠光的機率越小。
 
 ## Overview
