@@ -4,9 +4,9 @@
 A javascript that use Martingale Strategy on FreeBitcoin MANUAL BET.
 
 ---
-❗ 警告：僅以此練習程式編寫，這個腳本只是用來練習 javascript，若要使用必須注意，下注有賺有賠，馬丁格爾策略 (Martingale Strategy) 在本金有限的情況下，絕對不是穩贏，其期望值絕對是負值，用於玩樂可以，但切勿想要用這個腳本賺錢，會賠光。 ❗
+### ❗ 警告：僅以此練習程式編寫，這個腳本只是用來練習 javascript，若要使用必須注意，下注有賺有賠，馬丁格爾策略 (Martingale Strategy) 在本金有限的情況下，絕對不是穩贏，其期望值絕對是負值，用於玩樂可以，但切勿想要用這個腳本賺錢，會賠光。 ❗
 
-❗ Warning: Practice programming only, this script is only used to practice javascript, if want to use it, you must pay attention to the fact that there is a profit and a loss of bets, the Martingale Strategy in the case of a limited amount of capital, it is definitely not a sure-fire way to win, and its Expected Value are definitely negative, it's okay to use it for fun, but don't want to use this script to make money, you'll lose all your money. ❗
+### ❗ Warning: Practice programming only, this script is only used to practice javascript, if want to use it, you must pay attention to the fact that there is a profit and a loss of bets, the Martingale Strategy in the case of a limited amount of capital, it is definitely not a sure-fire way to win, and its Expected Value are definitely negative, it's okay to use it for fun, but don't want to use this script to make money, you'll lose all your money. ❗
 
 ## Foreword
 ### Freebitcoin
