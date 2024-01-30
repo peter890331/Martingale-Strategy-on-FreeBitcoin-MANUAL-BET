@@ -32,6 +32,12 @@ var _2x_Button = document.getElementById('double_your_btc_2x');
 // 獲取 "MIN" 按鈕
 var MIN_Button = document.getElementById('double_your_btc_min');
 
+// 定義紀錄輸幾次的變數
+var lose_time = 0;
+
+// 最大連輸次數
+var Max_loss = 0;
+
 // 如果當前網址符合 jsonUrls 的某些開頭，執行程式碼
 if (isJsonUrl) {
     // 監聽整個文檔的按鍵按下事件
@@ -56,6 +62,10 @@ if (isJsonUrl) {
                 // 記錄迭代開始時間
                 var startTime = performance.now();
                 var promise = Promise.resolve();
+
+                // 最大連輸次數
+                Max_loss = 0;
+
                 // 進行 Martingale 迭代，賺取比特幣
                 for (var i = 0; i < numIterations; i++) {
                     promise = promise
@@ -75,6 +85,7 @@ if (isJsonUrl) {
                     console.log(" * Martingale迭代次數： " + numIterations);
                     console.log(" * 總共用時 " + (endTime - startTime) / 1000 + " 秒，");
                     console.log(" * 也就是 " + (endTime - startTime) / 1000 / 60 + " 分鐘。");
+                    console.log(" * 請注意，本次迭代的連輸次數是： " + Max_loss + " 次。");
                     console.log("---------------------------------------");
                 });
             } else {
@@ -120,7 +131,7 @@ async function Martingale() {
         var loseMessageElement = document.getElementById('double_your_btc_bet_lose');
 
         // 定義紀錄輸幾次的變數
-        var lose_time = 0;
+        lose_time = 0;
 
         if (resultElement) {
 
@@ -139,6 +150,10 @@ async function Martingale() {
                 console.log("！賭輸！");
                 // 輸幾次次數增加
                 lose_time++;
+                // 紀錄最大連輸次數
+                if (lose_time > Max_loss) {
+                    Max_loss = lose_time;
+                }
 
                 // 如果持續賭輸
                 while (winMessageElement.style.display == 'none') {
@@ -163,6 +178,10 @@ async function Martingale() {
                         console.log("！又賭輸！");
                         // 輸幾次次數增加
                         lose_time++;
+                        // 紀錄最大連輸次數
+                        if (lose_time > Max_loss) {
+                            Max_loss = lose_time;
+                        }
                         // 顯示當前迭代的賭輸次數
                         console.log("lose_time： " + lose_time);
 
