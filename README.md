@@ -47,7 +47,7 @@ Freebitcoin ([Website][3]) 是一個線上的比特幣水龍頭網站，其 Logo
 設備和軟體要求：
   1.  一台已安裝瀏覽器（建議是Chrome或Brave）的電腦（建議是Windows系統）。
   2.  瀏覽器要裝上篡改猴 (Tampermonkey) 的擴充功能，可以在 chrome 線上應用程式商店中找到（[擴充連結][1]）。
-  3.  （選用）：在進行下注的途中，可能會三不五時跳出 hCaptcha 的機器人驗證，雖然此腳本可以不受其影響持續進行，但可以使用 NopeCHA: CAPTCHA Solver 來進行自動驗證，一樣可以在 chrome 線上應用程式商店中找到（[擴充連結][2]），只是驗證成功的機會實測是滿低的。如果不會設定的話，我在[一個網址][5]有找到還算詳細的設定教學（[驗證機器人設定教學][5]）
+  3.  （選用）：在進行下注的途中，可能會三不五時跳出 hCaptcha 的機器人驗證，雖然此腳本可以不受其影響持續進行，但可以使用 NopeCHA: CAPTCHA Solver 來進行自動驗證，一樣可以在 chrome 線上應用程式商店中找到（[擴充連結][2]），只是驗證成功的機會實測是滿低的。如果不會設定的話，我在[一個網址][5]有找到還算詳細的設定教學（[驗證機器人設定教學][5]）。
   4.  註冊 FreeBitcoin 網站 ([Website][3])，並累積一些本金，可以透過簽到或入金，理論上本金越大，賠光的機率越小。
 
 [1]: https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo
@@ -74,11 +74,12 @@ Freebitcoin ([Website][3]) 是一個線上的比特幣水龍頭網站，其 Logo
 
 ## Notes
 ### 自動簽到腳本
-在 Freebitcoin 中，有一個無風險賺取小額比特幣的功能，也就是在 FREE BTC 頁面中每個小時都可以進行一次數字輪盤的 ROLL，俗稱為簽到，如下圖，而我在[一個網址][4]也有找到自動簽到的腳本（[自動簽到腳本連結][4]），作者是 Andy PRO，有需要的話可以看一下，只不過如網頁中所寫的前置作業，新註冊的會員在每次簽到的時候，幾乎會需要進行一次 hCaptcha 的機器人驗證，所以也可以嘗試使用 NopeCHA: CAPTCHA Solver 來進行自動驗證，可以在 chrome 線上應用程式商店中找到（[擴充連結][2]），只是驗證成功的機會實測是滿低的。如果不會設定的話，我在[一個網址][5]有找到還算詳細的設定教學（[驗證機器人設定教學][5]）
+在 Freebitcoin 中，有一個無風險賺取小額比特幣的功能，也就是在 FREE BTC 頁面中每個小時都可以進行一次數字輪盤的 ROLL，俗稱為簽到，如下圖，而我在[一個網址][4]也有找到自動簽到的腳本（[自動簽到腳本連結][4]），作者是 Andy PRO ([Andy PRO's Github][6])，有需要的話可以看一下，只不過如網頁中所寫的前置作業，新註冊的會員在每次簽到的時候，幾乎會需要進行一次 hCaptcha 的機器人驗證，所以也可以嘗試使用 NopeCHA: CAPTCHA Solver 來進行自動驗證，可以在 chrome 線上應用程式商店中找到（[擴充連結][2]），只是驗證成功的機會實測是滿低的。如果不會設定的話，我在[一個網址][5]有找到還算詳細的設定教學（[驗證機器人設定教學][5]）。
 
 <div align=center><img src= "https://github.com/peter890331/Martingale-Strategy-on-FreeBitcoin-MANUAL-BET/blob/figures/ROLL.png" width="400px"></div>
 
 [4]: https://andy-pro.com/%F0%9F%9A%80%F0%9F%92%B0-freebitco-in-%E8%87%AA%E5%8B%95%E5%8C%96-%E8%85%B3%E6%9C%AC-%E9%80%B2%E9%9A%8E%E6%95%99%E5%AD%B8-freebitco-in-%E6%8E%9B%E6%A9%9F%E8%87%AA%E5%8B%95%E9%A0%98%E5%8F%96btc/
+[6]: https://github.com/andyuan997/crypto-faucet-script
 
 ---
 ### ❗ 再次警告：僅以此練習程式編寫，這個腳本只是用來練習 javascript，若要使用必須注意，下注有賺有賠，馬丁格爾策略 (Martingale Strategy) 在本金有限的情況下，絕對不是穩贏，其期望值絕對是負值，用於玩樂可以，但切勿想要用這個腳本賺錢，會賠光。本人對此內容不負任何法律責任。 ❗
