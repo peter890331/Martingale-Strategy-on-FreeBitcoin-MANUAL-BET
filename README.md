@@ -10,7 +10,7 @@ A javascript that use Martingale Strategy on FreeBitcoin MANUAL BET.
 
 ## Foreword
 ### Freebitcoin
-Freebitcoin（[Website][3]） 是一個線上的比特幣水龍頭網站，可以透過簽到、抽獎或下注來賺取小額的比特幣。其中，在 MULTIPLY BTC 頁面中，有一個賭數字大或小的下注功能，其標示的勝率是47.5%，我們可以使用腳本將這裡的 MANUAL BET 進行自動化，以馬丁格爾策略 (Martingale Strategy) 來下注。
+Freebitcoin ([Website][3]) 是一個線上的比特幣水龍頭網站，可以透過簽到、抽獎或下注來賺取小額的比特幣。其中，在 MULTIPLY BTC 頁面中，有一個賭數字大或小的下注功能，其標示的勝率是47.5%，我們可以使用腳本將這裡的 MANUAL BET 進行自動化，以馬丁格爾策略 (Martingale Strategy) 來下注。
 
 ### 馬丁格爾策略
 馬丁格爾策略 (Martingale Strategy) 是一個經典的賭博策略，簡而言之就是，在每次下注輸了之後，下一注就用雙倍的賭注再去押注，直到贏錢為止，再重新開始新的回合。如此一來，如果本金無限的話，贏錢那次就可以把前面輸的賭注都賺回來，但本金不可能無限，所以就算本金很大，連輸的機率相對再微小，都還是有賠光的可能，要謹慎使用。理論上本金越大，賠光的機率越小。
@@ -24,7 +24,7 @@ Freebitcoin（[Website][3]） 是一個線上的比特幣水龍頭網站，可�
   1.  一台已安裝瀏覽器（建議是Chrome或Brave）的電腦（建議是Windows系統）。
   2.  瀏覽器要裝上篡改猴 (Tampermonkey) 的擴充功能，可以在 chrome 線上應用程式商店中找到（[擴充連結][1]）。
   3.  （選用）：在進行下注的途中，可能會三不五時跳出 hCaptcha 的機器人驗證，雖然此腳本可以不受其影響持續進行，但可以使用 NopeCHA: CAPTCHA Solver 來進行自動驗證，一樣可以在 chrome 線上應用程式商店中找到（[擴充連結][2]），只是驗證成功的機會實測是滿低的。
-  4.  註冊 FreeBitcoin 網站（[Website][3]），並累積一些本金，可以透過簽到或入金，理論上本金越大，賠光的機率越小。
+  4.  註冊 FreeBitcoin 網站 ([Website][3])，並累積一些本金，可以透過簽到或入金，理論上本金越大，賠光的機率越小。
 
 [1]: https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo
 [2]: https://chromewebstore.google.com/detail/nopecha-captcha-solver/dknlfmjaanfblgfdfebhijalfmhmjjjo
