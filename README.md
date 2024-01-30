@@ -6,7 +6,7 @@ A javascript that use Martingale Strategy on FreeBitcoin MANUAL BET.
 ---
 ### ❗ 警告：僅以此練習程式編寫，這個腳本只是用來練習 javascript，若要使用必須注意，下注有賺有賠，馬丁格爾策略 (Martingale Strategy) 在本金有限的情況下，絕對不是穩贏，其期望值絕對是負值，用於玩樂可以，但切勿想要用這個腳本賺錢，會賠光。 ❗
 
-### ❗ Warning: Practice programming only, this script is only used to practice javascript, if want to use it, you must pay attention to the fact that there is a profit and a loss of bets, the Martingale Strategy in the case of a limited amount of capital, it is definitely not a sure-fire way to win, and its Expected Value are definitely negative, it's okay to use it for fun, but don't want to use this script to make money, you'll lose all your money. ❗
+### ❗ WARNING: Practice programming only, this script is only used to practice javascript, if want to use it, you must pay attention to the fact that there is a profit and a loss of bets, the Martingale Strategy in the case of a limited amount of capital, it is definitely not a sure-fire way to win, and its Expected Value are definitely negative, it's okay to use it for fun, but don't want to use this script to make money, you'll lose all your money. ❗
 
 ## Foreword
 ### Freebitcoin
@@ -49,3 +49,8 @@ Freebitcoin ([Website][3]) 是一個線上的比特幣水龍頭網站，可以�
 在 Freebitcoin 中，有一個無風險賺取小額比特幣的功能，也就是在 FREE BTC 頁面中每個小時都可以進行一次數字輪盤的ROLL，俗稱為簽到，而我在一個網址也有找到自動簽到的腳本（[自動簽到腳本連結][4]），有需要的話可以看一下，只不過如網頁中所寫的前置作業，新註冊的會員在每次簽到的時候，幾乎會需要進行一次 hCaptcha 的機器人驗證，所以也可以嘗試使用 NopeCHA: CAPTCHA Solver 來進行自動驗證，只是驗證成功的機會實測是滿低的。
 
 [4]: https://andy-pro.com/%F0%9F%9A%80%F0%9F%92%B0-freebitco-in-%E8%87%AA%E5%8B%95%E5%8C%96-%E8%85%B3%E6%9C%AC-%E9%80%B2%E9%9A%8E%E6%95%99%E5%AD%B8-freebitco-in-%E6%8E%9B%E6%A9%9F%E8%87%AA%E5%8B%95%E9%A0%98%E5%8F%96btc/
+
+---
+### ❗ 再次警告：僅以此練習程式編寫，這個腳本只是用來練習 javascript，若要使用必須注意，下注有賺有賠，馬丁格爾策略 (Martingale Strategy) 在本金有限的情況下，絕對不是穩贏，其期望值絕對是負值，用於玩樂可以，但切勿想要用這個腳本賺錢，會賠光。 ❗
+
+### ❗ WARNING AGAIN: Practice programming only, this script is only used to practice javascript, if want to use it, you must pay attention to the fact that there is a profit and a loss of bets, the Martingale Strategy in the case of a limited amount of capital, it is definitely not a sure-fire way to win, and its Expected Value are definitely negative, it's okay to use it for fun, but don't want to use this script to make money, you'll lose all your money. ❗
