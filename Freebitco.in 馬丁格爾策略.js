@@ -56,7 +56,7 @@ if (isJsonUrl) {
             if (!isNaN(numIterations) && numIterations > 0) {
 
                 // 執行迭代操作
-                console.log("---------------------------------------");
+                console.log("---------------------------------------------");
                 console.log(" * Martingale迭代次數： " + numIterations);
                 console.log(" * Martingale迭代開始！");
                 // 記錄迭代開始時間
@@ -85,8 +85,13 @@ if (isJsonUrl) {
                     console.log(" * Martingale迭代次數： " + numIterations);
                     console.log(" * 總共用時 " + (endTime - startTime) / 1000 + " 秒，");
                     console.log(" * 也就是 " + (endTime - startTime) / 1000 / 60 + " 分鐘。");
-                    console.log(" * 請注意，本輪迭代的最大連輸次數是： " + Max_lose + " 次。");
-                    console.log("---------------------------------------");
+                    // 顯示最大連輸次數與機率
+                    console.log(" * 請注意，本輪迭代的最大連輸次數是： " + Max_lose + " 次，");
+                    if (Max_lose > 0) {
+                    console.log(" * 正常來說，在一次Martingale獨立事件中");
+                    console.log("   連輸這個次數的機率為： " + (0.525**Max_lose)*100 + " %。");
+                    console.log("---------------------------------------------");
+                    }
                 });
             } else {
 
