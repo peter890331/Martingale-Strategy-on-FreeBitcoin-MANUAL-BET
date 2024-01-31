@@ -81,7 +81,9 @@ Freebitcoin ([Website][3]) 是一個線上的老牌比特幣水龍頭網站，�
 [4]: https://andy-pro.com/%F0%9F%9A%80%F0%9F%92%B0-freebitco-in-%E8%87%AA%E5%8B%95%E5%8C%96-%E8%85%B3%E6%9C%AC-%E9%80%B2%E9%9A%8E%E6%95%99%E5%AD%B8-freebitco-in-%E6%8E%9B%E6%A9%9F%E8%87%AA%E5%8B%95%E9%A0%98%E5%8F%96btc/
 [6]: https://github.com/andyuan997/crypto-faucet-script
 [7]: https://chromewebstore.google.com/detail/%E9%A9%97%E8%AD%89%E7%A2%BC%E8%87%AA%E5%8B%95%E8%BE%A8%E8%AD%98%E5%99%A8-%E8%87%AA%E5%8B%95%E8%BE%A8%E8%AD%98%E8%99%95%E7%90%86hcaptcha%E5%92%8Cr/hlifkpholllijblknnmbfagnkjneagid?hl=zh-TW
+
 ---
+
 ### ❗ 再次警告：僅以此練習程式編寫，這個腳本只是用來練習 javascript，若要使用必須注意，下注有賺有賠，馬丁格爾策略 (Martingale Strategy) 在本金有限的情況下，絕對不是穩贏，其期望值絕對是負值，用於玩樂可以，但切勿想要用這個腳本賺錢，會賠光。本人對此內容不負任何法律責任。 ❗
 
 ### ❗ WARNING AGAIN: Practice programming only, this script is only used to practice javascript, if want to use it, you must pay attention to the fact that there is a profit and a loss of bets, the Martingale Strategy in the case of a limited amount of capital, it is definitely not a sure-fire way to win, and its Expected Value are definitely negative, it's okay to use it for fun, but don't want to use this script to make money, you'll lose all your money. I will not be responsible for any law liability to this content. ❗
